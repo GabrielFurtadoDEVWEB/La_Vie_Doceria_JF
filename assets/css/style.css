@@ -1,0 +1,292 @@
+/* Reset padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffaf8;
+    color: #3d2925;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-brand {
+    color: #8f2942 !important;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: #3d2925 !important;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #b43d59 !important;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero-section {
+    background: linear-gradient(
+        135deg,
+        #fff1f3,
+        #fffaf8
+    );
+
+    padding: 70px 0;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.hero-section h1 {
+    color: #8f2942;
+}
+
+.hero-section p {
+    color: #654b45;
+}
+
+.hero-section .btn-danger {
+    background-color: #a83251;
+    border-color: #a83251;
+}
+
+.hero-section .btn-danger:hover {
+    background-color: #8f2942;
+    border-color: #8f2942;
+}
+
+
+/* =========================
+   ESPAÇAMENTO DAS SEÇÕES
+========================= */
+
+section {
+    scroll-margin-top: 70px;
+}
+
+section h2 {
+    color: #542e2a;
+}
+
+
+/* =========================
+   ESPAÇOS PARA IMAGENS
+========================= */
+
+.hero-image-placeholder,
+.image-placeholder {
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f5dfe3;
+
+    border-radius: 20px;
+
+    color: #a83251;
+
+    text-align: center;
+}
+
+.hero-image-placeholder i,
+.image-placeholder i {
+    font-size: 4rem;
+}
+
+.hero-image-placeholder p,
+.image-placeholder p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   CARDS DO FESTIVAL
+========================= */
+
+.card {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.card-title {
+    color: #542e2a;
+}
+
+.text-danger {
+    color: #a83251 !important;
+}
+
+
+/* =========================
+   CARDS DO CARDÁPIO
+========================= */
+
+.product-card {
+    border: none;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12) !important;
+}
+
+.product-image {
+    height: 220px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f5dfe3;
+
+    color: #a83251;
+}
+
+.product-image i {
+    font-size: 4rem;
+}
+
+
+/* =========================
+   BOTÕES
+========================= */
+
+.btn-danger {
+    background-color: #a83251;
+    border-color: #a83251;
+}
+
+.btn-danger:hover {
+    background-color: #8f2942;
+    border-color: #8f2942;
+}
+
+
+/* =========================
+   FORMULÁRIO
+========================= */
+
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #a83251;
+    box-shadow: 0 0 0 0.2rem rgba(168, 50, 81, 0.15);
+}
+
+
+/* =========================
+   FAQ
+========================= */
+
+.accordion-item {
+    border-radius: 10px !important;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff1f3;
+    color: #8f2942;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+
+/* =========================
+   RODAPÉ
+========================= */
+
+footer {
+    background-color: #2f2020 !important;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f5b8c5 !important;
+}
+
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 50px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-image-placeholder,
+    .image-placeholder {
+        min-height: 250px;
+    }
+
+    .hero-section .btn {
+        font-size: 0.9rem;
+    }
+
+    .navbar-nav {
+        padding-top: 10px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+    }
+
+}
