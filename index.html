@@ -23,11 +23,13 @@
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
+    <!-- NAVBAR  -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
 
         <div class="container">
+
+            <img src="assets/Images/logo.jpg" class="logo" alt="...">
 
             <a class="navbar-brand fw-bold" href="#inicio">
                 La Vie Doceria
@@ -70,13 +72,6 @@
                         <a class="nav-link" href="#faq">FAQ</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="produtos.html">Produtos</a>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login</a>
-                    </li>
-
                 </ul>
 
             </div>
@@ -86,7 +81,7 @@
     </nav>
 
 
-    <!-- ================= INÍCIO ================= -->
+    <!-- INÍCIO  -->
 
     <main>
 
@@ -127,9 +122,27 @@
 
                     <div class="col-lg-6 mt-4 mt-lg-0">
 
-                        <div class="hero-image-placeholder">
-                            <i class="bi bi-cake2"></i>
-                            <p>Foto da La Vie</p>
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="assets/Images/doces/festival_0.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/Images/doces/festival_1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/Images/doces/festival_2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
                         </div>
 
                     </div>
@@ -141,7 +154,7 @@
         </section>
 
 
-        <!-- ================= SOBRE ================= -->
+        <!--  SOBRE  -->
 
         <section id="sobre" class="py-5">
 
@@ -151,9 +164,15 @@
 
                     <div class="col-lg-6">
 
-                        <div class="image-placeholder">
-                            <i class="bi bi-heart"></i>
-                            <p>Foto da doceria</p>
+                        <div class="col-lg-6">
+
+                            <div class="ratio ratio-1x1 rounded overflow-hidden">
+                                <video autoplay muted loop playsinline class="w-200 h-200 object-fit-cover">
+                                    <source src="assets/Images/doces/video.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeos.
+                                </video>
+                            </div>
+                        
                         </div>
 
                     </div>
@@ -211,7 +230,7 @@
         </section>
 
 
-        <!-- ================= FESTIVAL ================= -->
+        <!-- FESTIVAL  -->
 
         <section class="py-5 bg-light">
 
@@ -305,7 +324,7 @@
         </section>
 
 
-        <!-- ================= CARDÁPIO ================= -->
+        <!-- CARDÁPIO  -->
 
         <section id="cardapio" class="py-5">
 
@@ -335,10 +354,28 @@
                     <div class="col-md-6 col-lg-4">
 
                         <div class="card product-card h-100 shadow-sm">
-
-                            <div class="product-image">
-                                <i class="bi bi-image"></i>
-                            </div>
+                            
+                            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="assets/Images/doces/fatia_0.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/Images/doces/fatia_1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/Images/doces/fatia_2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
 
                             <div class="card-body">
 
@@ -381,9 +418,27 @@
 
                         <div class="card product-card h-100 shadow-sm">
 
-                            <div class="product-image">
-                                <i class="bi bi-image"></i>
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="assets/Images/doces/torta_0.jpg" class="d-block w-100" alt="...">
                             </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/torta_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/torta_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
 
                             <div class="card-body">
 
@@ -418,9 +473,27 @@
 
                         <div class="card product-card h-100 shadow-sm">
 
-                            <div class="product-image">
-                                <i class="bi bi-image"></i>
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="assets/Images/doces/copo_0.jpg" class="d-block w-100" alt="...">
                             </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/copo_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/copo_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
 
                             <div class="card-body">
 
@@ -455,9 +528,27 @@
 
                         <div class="card product-card h-100 shadow-sm">
 
-                            <div class="product-image">
-                                <i class="bi bi-image"></i>
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="assets/Images/doces/pote_t_0.jpg" class="d-block w-100" alt="...">
                             </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/pote_t_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/pote_t_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
 
                             <div class="card-body">
 
@@ -492,9 +583,27 @@
 
                         <div class="card product-card h-100 shadow-sm">
 
-                            <div class="product-image">
-                                <i class="bi bi-image"></i>
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="assets/Images/doces/bom_c_0.jpg" class="d-block w-100" alt="...">
                             </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/bom_c_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/bom_c_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
 
                             <div class="card-body">
 
@@ -529,9 +638,27 @@
 
                         <div class="card product-card h-100 shadow-sm">
 
-                            <div class="product-image">
-                                <i class="bi bi-image"></i>
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="assets/Images/doces/brownie_0.jpg" class="d-block w-100" alt="...">
                             </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/brownie_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/brownie_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
 
                             <div class="card-body">
 
@@ -563,9 +690,27 @@
 
                         <div class="card product-card h-100 shadow-sm">
 
-                            <div class="product-image">
-                                <i class="bi bi-image"></i>
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="assets/Images/doces/gela_0.jpg" class="d-block w-100" alt="...">
                             </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/gela_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/gela_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
 
                             <div class="card-body">
 
@@ -597,9 +742,27 @@
 
                         <div class="card product-card h-100 shadow-sm">
 
-                            <div class="product-image">
-                                <i class="bi bi-image"></i>
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="assets/Images/doces/cookie_0.jpg" class="d-block w-100" alt="...">
                             </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/cookie_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/cookie_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
 
                             <div class="card-body">
 
@@ -631,9 +794,27 @@
 
                         <div class="card product-card h-100 shadow-sm">
 
-                            <div class="product-image">
-                                <i class="bi bi-image"></i>
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="assets/Images/doces/coxinha_0.jpg" class="d-block w-100" alt="...">
                             </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/coxinha_1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/Images/doces/coxinha_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
 
                             <div class="card-body">
 
@@ -668,7 +849,7 @@
         </section>
 
 
-        <!-- ================= CONTATO ================= -->
+        <!-- CONTATO  -->
 
         <section id="contato" class="py-5 bg-light">
 
@@ -719,7 +900,7 @@
         </section>
 
 
-        <!-- ================= FAQ ================= -->
+        <!--  FAQ  -->
 
         <section id="faq" class="py-5">
 
@@ -872,7 +1053,7 @@
     </main>
 
 
-    <!-- ================= RODAPÉ ================= -->
+    <!-- RODAPÉ -->
 
     <footer class="bg-dark text-light py-4">
 
