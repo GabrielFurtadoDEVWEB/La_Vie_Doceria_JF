@@ -6,9 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* =========================
-   CONFIGURAÇÕES GERAIS
-========================= */
+/* CONFIGURAÇÕES GERAIS*/
 
 html {
     scroll-behavior: smooth;
@@ -23,9 +21,7 @@ body {
 }
 
 
-/* =========================
-   NAVBAR
-========================= */
+/* NAVBAR*/
 
 .navbar {
     min-height: 70px;
@@ -48,9 +44,7 @@ body {
 }
 
 
-/* =========================
-   HERO
-========================= */
+/*HERO*/
 
 .hero-section {
     background: linear-gradient(
@@ -85,9 +79,7 @@ body {
 }
 
 
-/* =========================
-   ESPAÇAMENTO DAS SEÇÕES
-========================= */
+/* ESPAÇAMENTO DAS SEÇÕES */
 
 section {
     scroll-margin-top: 70px;
@@ -98,9 +90,7 @@ section h2 {
 }
 
 
-/* =========================
-   ESPAÇOS PARA IMAGENS
-========================= */
+/*ESPAÇOS PARA IMAGENS*/
 
 .hero-image-placeholder,
 .image-placeholder {
@@ -133,9 +123,7 @@ section h2 {
 }
 
 
-/* =========================
-   CARDS DO FESTIVAL
-========================= */
+/*CARDS DO FESTIVAL */
 
 .card {
     border-radius: 16px;
@@ -156,9 +144,7 @@ section h2 {
 }
 
 
-/* =========================
-   CARDS DO CARDÁPIO
-========================= */
+/*CARDS DO CARDÁPIO */
 
 .product-card {
     border: none;
@@ -187,9 +173,7 @@ section h2 {
 }
 
 
-/* =========================
-   BOTÕES
-========================= */
+/*BOTÕES */
 
 .btn-danger {
     background-color: #a83251;
@@ -202,9 +186,7 @@ section h2 {
 }
 
 
-/* =========================
-   FORMULÁRIO
-========================= */
+/*FORMULÁRIO*/
 
 .form-control {
     border-radius: 10px;
@@ -217,9 +199,7 @@ section h2 {
 }
 
 
-/* =========================
-   FAQ
-========================= */
+/*FAQ */
 
 .accordion-item {
     border-radius: 10px !important;
@@ -241,9 +221,7 @@ section h2 {
 }
 
 
-/* =========================
-   RODAPÉ
-========================= */
+/*RODAPÉ*/
 
 footer {
     background-color: #2f2020 !important;
@@ -258,9 +236,15 @@ footer a:hover {
 }
 
 
-/* =========================
-   RESPONSIVIDADE
-========================= */
+/*RESPONSIVIDADE */
+
+.logo {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: contain;
+    display: block;
+}
+
 
 @media (max-width: 768px) {
 
