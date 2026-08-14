@@ -23,6 +23,13 @@ body {
 
 /* NAVBAR*/
 
+.logo {
+    width: 65px !important;
+    height: 65px !important;
+    object-fit: contain;
+    display: block;
+}
+
 .navbar {
     min-height: 70px;
 }
@@ -90,93 +97,10 @@ section h2 {
 }
 
 
-/*ESPAÇOS PARA IMAGENS*/
-
-.hero-image-placeholder,
-.image-placeholder {
-    min-height: 350px;
-
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
-
-    background-color: #f5dfe3;
-
-    border-radius: 20px;
-
-    color: #a83251;
-
-    text-align: center;
-}
-
-.hero-image-placeholder i,
-.image-placeholder i {
-    font-size: 4rem;
-}
-
-.hero-image-placeholder p,
-.image-placeholder p {
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-
-/*CARDS DO FESTIVAL */
-
-.card {
-    border-radius: 16px;
-    overflow: hidden;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    transition: 0.3s;
-}
-
-.card-title {
-    color: #542e2a;
-}
-
-.text-danger {
-    color: #a83251 !important;
-}
-
-
-/*CARDS DO CARDÁPIO */
-
-.product-card {
-    border: none;
-    transition: 0.3s;
-}
-
-.product-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12) !important;
-}
-
-.product-image {
-    height: 220px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: #f5dfe3;
-
-    color: #a83251;
-}
-
-.product-image i {
-    font-size: 4rem;
-}
-
-
 /*BOTÕES */
 
 .btn-danger {
-    background-color: #a83251;
+    background-color: #a83251;1
     border-color: #a83251;
 }
 
@@ -185,19 +109,13 @@ section h2 {
     border-color: #8f2942;
 }
 
+/*CARDÁPIO */
 
-/*FORMULÁRIO*/
-
-.form-control {
-    border-radius: 10px;
-    padding: 12px;
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
 }
-
-.form-control:focus {
-    border-color: #a83251;
-    box-shadow: 0 0 0 0.2rem rgba(168, 50, 81, 0.15);
-}
-
 
 /*FAQ */
 
@@ -237,14 +155,6 @@ footer a:hover {
 
 
 /*RESPONSIVIDADE */
-
-.logo {
-    width: 50px !important;
-    height: 50px !important;
-    object-fit: contain;
-    display: block;
-}
-
 
 @media (max-width: 768px) {
 
